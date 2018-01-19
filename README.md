@@ -12,9 +12,11 @@ To run the KafkaServer you need to start it via the shell command line,
 Kafka uses ZooKeeper so you need to first start a ZooKeeper server if you don't already have one. 
 You can use the convenience script packaged with kafka to get a quick-and-dirty single-node ZooKeeper instance. 
 bin\windows\zookeeper-server-start.bat config\zookeeper.properties
+
 -----------------------------------------------------------------------
 Now start the Kafka server:
 bin\windows\kafka-server-start.bat config\server.properties
+
 -----------------------------------------------------------------------
 
 Type in the following instruction: java –jar kafkaProject.jar  
